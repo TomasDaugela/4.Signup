@@ -1,0 +1,25 @@
+.container {
+    display: inline-block;
+    width: 600px;
+    margin-left: calc( 50% - 300px );
+    background-color: aqua;
+    margin-top: 100px;
+}
+    .container > .left {
+        display: inline-block;
+    }
+        .left > h1 {
+
+        }
+        .left > .links {
+
+        }
+        .left > .links > a {
+
+        }
+        .left > .links > span {
+
+        }
+    .container > .right {
+        display: inline-block;
+    }
