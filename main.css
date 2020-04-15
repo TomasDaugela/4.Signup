@@ -2,11 +2,11 @@
     display: inline-block;
     width: 600px;
     margin-left: calc( 50% - 300px );
-    background-color: aqua;
     margin-top: 100px;
 }
     .container > .left {
         display: inline-block;
+        background-color: azure;
     }
         .left > h1 {
 
@@ -22,4 +22,33 @@
         }
     .container > .right {
         display: inline-block;
+        background-color: aqua;
+        padding: 60px;
     }
+        .close {
+            display: inline-block;
+        }
+        form {
+            display: inline-block;
+        }
+            fieldset {
+                display: inline-block;
+            }
+            .form-row {
+                display: inline-block;
+            }
+            .form-row > label {
+                display: inline-block;
+            }
+            .form-row > input{
+                display: inline-block;
+            }
+            .form-row > .btn {
+                display: inline-block;
+            }
+            .form-row > span {
+                display: inline-block;
+            }
+            .form-row > a {
+                display: inline-block;
+            }
