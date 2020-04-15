@@ -3,8 +3,8 @@ body {
 }
 
 .container {
-    width: 800px;
-    margin-left: calc( 50% - 400px );
+    width: 600px;
+    margin-left: calc( 50% - 300px );
     margin-top: 100px;
 }
     .container > .left {        
@@ -32,9 +32,16 @@ body {
         width: 60%;
         float: left;
         box-sizing: border-box;
+        position: relative;
     }
         .close {
-            
+            text-align: center;
+            width: 60px;
+            line-height: 60px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            font-size: 30px;
         }
         form {
             width: 100%;
