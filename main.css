@@ -3,26 +3,41 @@ body {
 }
 
 .container {
-    width: 600px;
-    margin-left: calc( 50% - 300px );
+    width: 700px;
+    margin-left: calc( 50% - 350px );
     margin-top: 100px;
+    position: relative;
 }
     .container > .left {        
         width: 40%;
         float: left;
-        background-color: blue;
+        background-color: aquamarine;
+
+        position: absolute;
+        top: 30px;
+        bottom: 30px;
+        background-image: url(kalnas.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
         .left > h1 {
-            
+            width: 100%;
+            padding: 20px;
+            color: white;
         }
         .left > .links {
-            
+            width: 100%;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 10%;
         }
         .left > .links > a {
-            
+            color: white;
         }
         .left > .links > span {
-            
+            color: white;
         }
         /* right */
     .container > .right {
@@ -30,7 +45,7 @@ body {
         background-color: white;
         padding: 60px;
         width: 60%;
-        float: left;
+        float: right;
         box-sizing: border-box;
         position: relative;
     }
@@ -42,6 +57,7 @@ body {
             top: 0;
             right: 0;
             font-size: 30px;
+            color: gray;
         }
         form {
             width: 100%;
@@ -85,7 +101,7 @@ body {
                     margin-left: 10px;
                 }
                 .form-row > a {
-                    color: #36f;
+                    color: #2954d4;
                     text-decoration: none;
                     line-height: 40px;
                 }
